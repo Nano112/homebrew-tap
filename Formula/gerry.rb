@@ -1,28 +1,28 @@
 class Gerry < Formula
   desc "Hostname and port control plane — dev to prod, one authority"
   homepage "https://github.com/Nano112/gerrymander"
-  version "0.9.0"
+  version "0.9.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Nano112/gerrymander/releases/download/v0.9.0/gerry_0.9.0_darwin_arm64.tar.gz"
-      sha256 "227d5cd097d602530b733a2d0794d47d4d481b543b7ebe4363c7e0bb2127548a"
+      url "https://github.com/Nano112/gerrymander/releases/download/v0.9.1/gerry_0.9.1_darwin_arm64.tar.gz"
+      sha256 "8bbacf4f92c7150a7c2bb1f4b82cd2bf2afd9459c6b48dbdaa9c1be274f49cbe"
     end
     on_intel do
-      url "https://github.com/Nano112/gerrymander/releases/download/v0.9.0/gerry_0.9.0_darwin_amd64.tar.gz"
-      sha256 "2271b6ccc73391026d2a15c3cc52282f9abc91e2c928398db15005bd19be60f1"
+      url "https://github.com/Nano112/gerrymander/releases/download/v0.9.1/gerry_0.9.1_darwin_amd64.tar.gz"
+      sha256 "ca0d4b29188042fd774225c5119c25ca3d780ef86b51ef8c20e81923f0b0704d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Nano112/gerrymander/releases/download/v0.9.0/gerry_0.9.0_linux_arm64.tar.gz"
-      sha256 "548f7a5f143326953618f8f0461cabec6836c15616ac55e0f7459d378454a35d"
+      url "https://github.com/Nano112/gerrymander/releases/download/v0.9.1/gerry_0.9.1_linux_arm64.tar.gz"
+      sha256 "d43763e7960d617a1cbbff02555063fdca36e2c5b390896fa912a564e1d46094"
     end
     on_intel do
-      url "https://github.com/Nano112/gerrymander/releases/download/v0.9.0/gerry_0.9.0_linux_amd64.tar.gz"
-      sha256 "8680a7c65df171165220c5ea84a954cffc8acf52431ed2fc704a27c574303bd0"
+      url "https://github.com/Nano112/gerrymander/releases/download/v0.9.1/gerry_0.9.1_linux_amd64.tar.gz"
+      sha256 "ac3077c3363bac1b50a8a7c69386c36c3a546507c0b89c1ab8e5a43e6e0b8dd2"
     end
   end
 
